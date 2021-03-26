@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    tools:context=".activities.CreateEventActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+    </androidx.appcompat.widget.Toolbar>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="90dp"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="@string/indicator1"
+        android:textColor="@color/colorWhite"
+        android:textFontWeight="250"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/colorWhite"
+        android:hint="@string/new_event_name" />
+
+
+        <Button
+            android:id="@+id/btn_record"
+            style="@style/Widget.Button.Clear"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/event_name"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnRecord"
+            android:textColor="@color/colorWhite"
+            />
+        <Button
+            android:id="@+id/btn_stop"
+            style="@style/Widget.Button.Clear"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_record"
+            android:layout_marginTop="15dp"
+            android:text="@string/btnStop"
+            android:textColor="@color/colorWhite"
+            />
+
+
+
+</RelativeLayout>

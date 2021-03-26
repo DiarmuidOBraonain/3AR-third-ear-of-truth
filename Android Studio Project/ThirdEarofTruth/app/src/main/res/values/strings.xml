@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Third Ear of Truth</string>
+    <string name="app_title">3 A R</string>
+    <string name="welcome">Welcome to</string>
+    <string name="locations_fragment">Locations</string>
+    <string name="acoustic_events_fragment">Your Sounds</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="profile_fragment_title">Your Profile</string>
+
+
+    <!---Registration-->
+    <string name="register_header">Create A New Account</string>
+
+    <string name="enter_email">Enter your email</string>
+    <string name="username">Username</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+
+
+    <!--Adding a sound-->
+    <string name="new_event_name">Name of New Sound</string>
+    <string name="indicator1">Enter a memorable name</string>
+    <string name="indicator2">Press Record</string>
+    <string name="indicator3">wait for 10 seconds…</string>
+    <string name="indicator4">Make your sound now!</string>
+    <string name="indicator5">Press Stop if you\'re finished</string>
+
+    <string name="confirmation">Does this sound okay?</string>
+
+    <!--Add new Location-->
+    <string name="new_location_header">Add a Location</string>
+    <string name="enter_type">Type (Home, Work etc.)</string>
+    <string name="enter_position">Position (Hallway, Porch etc.</string>
+    <string name="enter_street">Street Name</string>
+    <string name="enter_town">Town</string>
+
+    <!--Button Text-->
+    <string name="btn_reset">Reset</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_check">Check</string>
+    <string name="btn_detect">Listen</string>
+
+    <string name="forgot_password">Forgot Your Password?</string>
+
+    <string name="btnRecord">Record</string>
+    <string name="btnStop">Stop</string>
+
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!--Information-->
+    <string name="reset_info">Click Reset to receive an email with instructions on how to reset your password</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">If A Tree Falls In The Wilderness...</string>
+    <string name="welcome_message2">You\'ll Be The First To Know</string>
+
+    <string name="enter_details">Enter Login Details</string>
+    <string name="title_activity_about">ScrollingActivity</string>
+
+    <string name="sounds_header">These are the sounds you have added. Long-press to select.</string>
+
+
+</resources>

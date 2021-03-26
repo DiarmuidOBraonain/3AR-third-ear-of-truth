@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorTranslucentWhite"
+    android:padding="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sound_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hearing" />
+
+    <TextView
+        android:id="@+id/event_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_toRightOf="@+id/sound_image"
+        android:layout_toEndOf="@id/sound_image"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorEvent"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/duration_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_name"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorWhite"
+        android:layout_toRightOf="@+id/sound_image"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Duration: "
+
+        />
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_name"
+        android:layout_toRightOf="@+id/duration_field"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:text=" " />
+
+</RelativeLayout>

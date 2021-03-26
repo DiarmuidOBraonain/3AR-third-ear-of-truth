@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3A87C5</color>
+    <color name="colorPrimaryDark">#04B6A6</color>
+    <color name="colorAccent">#0ACD62</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTranslucentWhite">#32FFFFFF</color>
+    <color name="colorTranslucentBlack">#20FFFFFF</color>
+    <color name="colorTranslucentAccent">#520CF876</color>
+
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorEvent">#28DEC9</color>
+
+    <color name="colorWait">#0040AE</color>
+    <color name="colorMakeNoise">#08D810</color>
+    <color name="colorPlay">#6AF8F8F8</color>
+
+    <color name="colorStop">#9CF856B7</color>
+    <color name="colorRecord">#B9F10606</color>
+
+</resources>

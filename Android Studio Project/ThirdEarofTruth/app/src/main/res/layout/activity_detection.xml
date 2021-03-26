@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:orientation="vertical"
+    tools:context=".activities.DetectionActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+    </androidx.appcompat.widget.Toolbar>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/seekbar_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/chronometer"
+        android:layout_marginTop="60sp"
+        android:textColor="@color/colorWhite"
+        android:textFontWeight="250"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_below="@id/seekbar_value"
+        android:scrollbarSize="50sp"
+        />
+
+    <Button
+        android:id="@+id/btn_detect"
+        style="@style/Widget.Button.Clear"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="@string/btn_detect"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        style="@style/Widget.Button.Clear"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_detect"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="@string/btnStop"
+        android:textColor="@color/colorStop" />
+
+
+
+
+</RelativeLayout>

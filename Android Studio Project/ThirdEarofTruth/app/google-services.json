@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456171525541",
+    "firebase_url": "https://third-ear-of-truth.firebaseio.com",
+    "project_id": "third-ear-of-truth",
+    "storage_bucket": "third-ear-of-truth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456171525541:android:f15fbe0bf387a6c4fb444c",
+        "android_client_info": {
+          "package_name": "com.example.thirdearoftruth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456171525541-o0hucl7vmea3en81hgrq1r6c26hfrrbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thirdearoftruth",
+            "certificate_hash": "7a9f197aa6b17f7105db6725b13f693c70ac3a11"
+          }
+        },
+        {
+          "client_id": "456171525541-cmccs7h9o0lav5dl2oujn3d6t5d6u070.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAesYNEWGaLxB8LlgsB-2hYGqEbDB-iywc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456171525541-cmccs7h9o0lav5dl2oujn3d6t5d6u070.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list"
+    tools:context=".activities.ConfirmEventActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_marginTop="110dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/big_play_arrow"
+        android:backgroundTint="@color/colorWhite"
+        android:outlineSpotShadowColor="@color/colorBlack"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/sound_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="sound name"
+        android:textColor="@color/colorWhite"
+        android:textFontWeight="250"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/confirm_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sound_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/confirmation"
+        android:textColor="@color/colorWhite"
+        android:textFontWeight="250"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="@style/Widget.Button.Clear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_text"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_confirm"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        style="@style/Widget.Button.Clear"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_confirm"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_cancel"
+        android:textColor="@color/colorStop" />
+
+
+
+
+</RelativeLayout>
